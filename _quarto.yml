@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Iceland 2025"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - route.qmd
+      - waterfalls.qmd
+      - animals.qmd
+      - plants.qmd
+      - closeread_example.qmd
+    right:
+      - icon: github
+        href: https://github.com/NoahBolohan/Iceland-2025
+        aria-label: GitHub
+
+format:
+  closeread-html:
+    theme: cosmo
+    css: styles.css
+    embed-resources: true

@@ -1,0 +1,14 @@
+---
+title: Iceland 2025
+---
+
+This is a digital scrapbook for our trip to Iceland on June 16th, 2025 to June 26th, 2025.
+
+# Sections
+
+- [Route](route.qmd)
+- [Waterfalls](waterfalls.qmd)
+- [Animals](animals.qmd)
+- [Plants](plants.qmd)
+
+Made using [Quarto](https://quarto.org/) and [Closeread](https://closeread.dev/guide/).

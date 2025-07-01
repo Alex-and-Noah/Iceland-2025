@@ -1,0 +1,7 @@
+---
+title: Route
+---
+
+The driving route we took through the country using Alex's road maps.
+
+Maybe a section of scary routes at the end with elevation.
