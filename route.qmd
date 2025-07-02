@@ -13,9 +13,9 @@ The driving route we took through the country using Alex's road maps. Maybe a se
 
 June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="260%,-177%" scale-by="10"}
 
-June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="-50%,-45%" scale-by="3.5"}
+June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="95%,-90%" scale-by="6"}
 
-June 19th: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
+June 19th: Walk around Reykjavik [@cr-route]{pan-to="370%,-260%" scale-by="16"}
 
 June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
 
