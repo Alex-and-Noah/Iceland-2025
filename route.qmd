@@ -1,16 +1,17 @@
 ---
 title: Route
+debug-mode: true
 ---
 
 ::::{.cr-section}
 
 :::{#cr-route}
-![](static/iceland_map.png)
+![](static/route.png)
 :::
 
-The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{scale-by="1.1"}
+The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{pan-to="0%,-13%" scale-by="1"}
 
-June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="25%,-115%" scale-by="7.5"}
+June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="260%,-177%" scale-by="10"}
 
 June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="-50%,-45%" scale-by="3.5"}
 

@@ -151,5 +151,4 @@ map <- ggplot() +
 
 map
 
-ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 300,
-       bg = "grey30")
+ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 300,bg = "grey30")
