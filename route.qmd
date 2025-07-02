@@ -10,18 +10,26 @@ title: Route
 
 The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{scale-by="1.1"}
 
-Day 1: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
+June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="25%,-115%" scale-by="7.5"}
 
-Day 2: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="-50%,-45%" scale-by="3.5"}
+June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="-50%,-45%" scale-by="3.5"}
 
-Day 3: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
+June 19th: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
 
-Day 4: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
+June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
 
-Day 4: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
+June 21st: Drive to Red sand beaches and Latrabjarg, then to Harbour Inn Guesthouse [@cr-route]{pan-to="40%,30%" scale-by="2.4"}
 
-Day 4: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
+June 22nd: Drive to Dyjandi waterfall and Isafjodur, then to Einarshusid Guesthouse [@cr-route]{pan-to="100%,115%" scale-by="5"}
 
-Day 4: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
+June 23th: Drive to Holmavik, then to Dala Hotel [@cr-route]{pan-to="20%,53%" scale-by="3"}
+
+June 24th: Drive to Grindavik and the Rekyjanes, then to Northern Lights Inn [@cr-route]{pan-to="-3%,-17%" scale-by="2"}
+
+June 25th: Drive around the Reykjanes again and Fagradalsfjall volcano, then to Reykjavik [@cr-route]{pan-to="20%,-135%" scale-by="8.2"}
+
+June 25th: Drive to Keflavik and flew home [@cr-route]{pan-to="25%,-115%" scale-by="7.5"}
+
+That's all! [@cr-route]{scale-by="1.1"}
 
 ::::
