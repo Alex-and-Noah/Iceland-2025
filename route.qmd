@@ -2,6 +2,20 @@
 title: Route
 ---
 
-The driving route we took through the country using Alex's road maps.
+::::{.cr-section}
 
-Maybe a section of scary routes at the end with elevation.
+:::{#cr-route}
+![](static/iceland_map.png)
+:::
+
+The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{scale-by="1.1"}
+
+Day 1: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
+
+Day 2: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="-50%,-45%" scale-by="3.5"}
+
+Day 3: Walk around Reykjavik [@cr-route]{pan-to="-25%,-210%" scale-by="16"}
+
+Day 4: Drive to Gil Guesthouse @cr-route
+
+::::

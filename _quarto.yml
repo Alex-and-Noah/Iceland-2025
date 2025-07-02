@@ -24,3 +24,6 @@ format:
     theme: cosmo
     css: styles.css
     embed-resources: true
+    cr-style:
+      section-background-color: "#4d4d4d"
+      narrative-text-color-sidebar: "#bfbfbf"
