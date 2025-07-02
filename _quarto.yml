@@ -5,6 +5,8 @@ project:
 website:
   title: "Iceland 2025"
   page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
   navbar:
     left:
       - href: index.qmd

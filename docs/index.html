@@ -6156,6 +6156,11 @@ function isDocumentMain(el) {
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+  <a href class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -6170,8 +6175,8 @@ function isDocumentMain(el) {
       <!-- user-provided yaml closeread style options -->
       <style>
 :root {
---cr-section-background-color: #4d4d4d;
 --cr-narrative-text-color-sidebar: #bfbfbf;
+--cr-section-background-color: #4d4d4d;
 }
 </style>
     
@@ -6196,6 +6201,7 @@ function isDocumentMain(el) {
 
 
 <p>This is a digital scrapbook for our trip to Iceland on June 16th, 2025 to June 26th, 2025.</p>
+<p>This website is best viewed on a computer, or in landscape mode on your phone or tablet.</p>
 <section id="sections" class="level1">
 <h1>Sections</h1>
 <ul>
@@ -6209,7 +6215,7 @@ function isDocumentMain(el) {
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

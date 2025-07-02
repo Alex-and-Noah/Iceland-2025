@@ -1,6 +1,5 @@
 ---
 title: Route
-debug-mode: true
 ---
 
 ::::{.cr-section}
@@ -17,20 +16,18 @@ June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@c
 
 June 19th: Walk around Reykjavik [@cr-route]{pan-to="370%,-260%" scale-by="16"}
 
-June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="-8%,-10%" scale-by="2.4"}
+June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="50%,-20%" scale-by="2.2"}
 
-June 21st: Drive to Red sand beaches and Latrabjarg, then to Harbour Inn Guesthouse [@cr-route]{pan-to="40%,30%" scale-by="2.4"}
+June 21st: Drive to Red sand beaches and Latrabjarg, then to Harbour Inn Guesthouse [@cr-route]{pan-to="115%,30%" scale-by="3.5"}
 
-June 22nd: Drive to Dyjandi waterfall and Isafjodur, then to Einarshusid Guesthouse [@cr-route]{pan-to="100%,115%" scale-by="5"}
+June 22nd: Drive to Dyjandi waterfall and Isafjordur, then to Einarshusid Guesthouse [@cr-route]{pan-to="175%,82%" scale-by="5"}
 
-June 23th: Drive to Holmavik, then to Dala Hotel [@cr-route]{pan-to="20%,53%" scale-by="3"}
+June 23th: Drive to Holmavik, then to Dala Hotel [@cr-route]{pan-to="85%,35%" scale-by="3"}
 
-June 24th: Drive to Grindavik and the Rekyjanes, then to Northern Lights Inn [@cr-route]{pan-to="-3%,-17%" scale-by="2"}
+June 24th: Drive to Grindavik and the Rekyjanes, then to Northern Lights Inn [@cr-route]{pan-to="45%,-25%" scale-by="2"}
 
-June 25th: Drive around the Reykjanes again and Fagradalsfjall volcano, then to Reykjavik [@cr-route]{pan-to="20%,-135%" scale-by="8.2"}
+June 25th: Drive around the Reykjanes again and Fagradalsfjall volcano, then to Reykjavik [@cr-route]{pan-to="230%,-170%" scale-by="9"}
 
-June 25th: Drive to Keflavik and flew home [@cr-route]{pan-to="25%,-115%" scale-by="7.5"}
-
-That's all! [@cr-route]{scale-by="1.1"}
+That's all! [@cr-route]{pan-to="0%,-13%" scale-by="1"}
 
 ::::

@@ -142,4 +142,4 @@ map <- ggplot() +
 
 map
 
-ggsave("./static/route.png", map, dpi = 300)
+ggsave("./static/route.png", map, dpi = 1000)

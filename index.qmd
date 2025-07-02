@@ -4,6 +4,8 @@ title: Iceland 2025
 
 This is a digital scrapbook for our trip to Iceland on June 16th, 2025 to June 26th, 2025.
 
+This website is best viewed on a computer, or in landscape mode on your phone or tablet.
+
 # Sections
 
 - [Route](route.qmd)
