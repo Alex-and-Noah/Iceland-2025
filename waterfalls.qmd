@@ -2,28 +2,31 @@
 title: Waterfalls
 ---
 
-Various waterfalls of Iceland.
-
-List of waterfalls:
-
-- Öxarárfoss
-- Gullfoss
-- Barnafoss
-- Hraunfossar
-- Fossfjörður
-- Háifoss
-- Úðafoss
-- Göngufoss
-- Hundafoss
-- Bæjarfoss
-- Dynjandi
-- Bunárfoss
-
-- Misc. waterfalls
+Throughout Iceland, there are many glaciers; the 3 largest are Vatnajökull, Langjökull, and Hofsjökull, but there are hundreds of other smaller glaciers all over the country, covering about 10% of the land (around 10,400 square kilometers). As a result, there are also waterfalls all over the place! Here are a few that we visited during our trip:
 
 ::::{.cr-section}
 
-Öxarárfoss
+:::{#cr-oxararfoss_video}
+
+![](static/waterfalls/oxararfoss/video.mp4){fig-align="center" width=45%}
+
+:::
+
+:::{focus-on="cr-oxararfoss_video"}
+
+**Öxarárfoss**
+<!-- [@cr-oxararfoss_video]{pan-to="0%,-25%" scale-by="0.45"} -->
+
+![Öxarárfoss, with plunge pool and start of runoff](static/waterfalls/oxararfoss/waterfall_2.jpg)
+
+The first waterfall we visited in Iceland was **Öxarárfoss**, inheriting it's name from the **Öxará river** from which it flows.
+
+![The rest of the runoff stream](static/waterfalls/oxararfoss/waterfall_2.jpg)
+
+This waterfall is located in the **Þingvellir National Park**, which was the site of the **Alþing**, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798. Since 1881, the parliament has been located within Alþingishúsið in Reykjavík.
+
+![Us in front of Öxarárfoss](static/waterfalls/oxararfoss/us_with_falls_2.jpg)
+:::
 
 Gullfoss
 
@@ -33,15 +36,15 @@ Hraunfossar
 
 Fossfjörður
 
-Háifoss
+Misc Dynjandi 1
 
-Úðafoss
+Misc Dynjandi 2
 
-Göngufoss
+Misc Dynjandi 3
 
 Hundafoss
 
-Bæjarfoss
+Misc Dynjandi 4
 
 Dynjandi
 
