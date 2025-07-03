@@ -3,3 +3,48 @@ title: Waterfalls
 ---
 
 Various waterfalls of Iceland.
+
+List of waterfalls:
+
+- Öxarárfoss
+- Gulfoss
+- Barnafoss
+- Hraunfossar
+- Fossfjörður
+- Háifoss
+- Úðafoss
+- Göngufoss
+- Hundafoss
+- Bæjarfoss
+- Dynjandi
+- Bunárfoss
+
+- Misc. waterfalls
+
+::::{.cr-section}
+
+Öxarárfoss
+
+Gullfoss
+
+Barnafoss
+
+Hraunfossar
+
+Fossfjörður
+
+Háifoss
+
+Úðafoss
+
+Göngufoss
+
+Hundafoss
+
+Bæjarfoss
+
+Dynjandi
+
+Bunárfoss
+
+::::
