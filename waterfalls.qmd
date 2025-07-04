@@ -12,23 +12,56 @@ Throughout Iceland, there are many glaciers; the 3 largest are Vatnajökull, Lan
 
 :::
 
+:::{#cr-gullfoss_video}
+
+![](static/waterfalls/gullfoss/video_2.mp4)
+
+:::
+
 :::{focus-on="cr-oxararfoss_video"}
 
 **Öxarárfoss**
-<!-- [@cr-oxararfoss_video]{pan-to="0%,-25%" scale-by="0.45"} -->
 
 ![Öxarárfoss, with plunge pool and start of runoff](static/waterfalls/oxararfoss/waterfall_2.jpg)
 
 The first waterfall we visited in Iceland was **Öxarárfoss**, inheriting it's name from the **Öxará river** from which it flows.
 
-![The rest of the runoff stream](static/waterfalls/oxararfoss/waterfall_2.jpg)
+![The rest of the runoff stream](static/waterfalls/oxararfoss/stream_2.jpg)
 
 This waterfall is located in the **Þingvellir National Park**, which was the site of the **Alþing**, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798. Since 1881, the parliament has been located within Alþingishúsið in Reykjavík.
 
-![Us in front of Öxarárfoss](static/waterfalls/oxararfoss/us_with_falls_2.jpg)
+![Us with Öxarárfoss](static/waterfalls/oxararfoss/us_with_falls_2.jpg)
 :::
 
-Gullfoss
+:::{focus-on="cr-gullfoss_video"}
+
+**Gullfoss**
+
+![Gullfoss](static/waterfalls/gullfoss/waterfall_5.jpg)
+
+The second waterfall we visited was **Gullfoss** (*Golden falls*), one of the most popular tourist attractions in Iceland. It is sourced from the **Hvítá river** which begins at **Hvítárvatn glacier lake** on **Langjökull glacier**.
+
+![Upper tier of the falls](static/waterfalls/gullfoss/waterfall_top_6.jpg)
+
+![Lower tier of the falls with some of the runoff](static/waterfalls/gullfoss/waterfall_tip_5.jpg)
+
+Gullfoss is huge! The average amount of water running down the waterfall is 141 cubic meters per second but the highest flood measured was 2,000 cubic meters.
+
+![Runoff stream carved into the landscape](static/waterfalls/gullfoss/runoff_basin_4.jpg)
+
+![Steeper view of the runoff stream](static/waterfalls/gullfoss/runoff_stream_11.jpg)
+
+During the 20th century, there was interest in harnessing the power of Gullfoss to generate electricity. **Sigríður Tómasdóttir** (1874-1957), daughter of the co-owner of the land at the time, is popularly credited with saving the waterfall from exploitation, often walking 120km (one-way) to Reykjavik to further case and even threatening to throw herself in the waterfalls. Eventually, Gullfoss became the property of the people of Iceland and was made a permanent conservation site in 1979.
+
+![Memorial of Sigríður Tómasdóttir which stands over the waterfalls, made by Rikhardur Jonsson](static/waterfalls/gullfoss/sigridur_tomasdottir_2.jpg)
+
+![Alex with Gullfoss](static/waterfalls/gullfoss/alex_with_falls_2.jpg)
+
+![Noah with Gullfoss](static/waterfalls/gullfoss/noah_with_falls_1.jpg)
+
+![Us with Gullfoss](static/waterfalls/gullfoss/us_with_falls_4.jpg)
+
+:::
 
 Barnafoss
 
