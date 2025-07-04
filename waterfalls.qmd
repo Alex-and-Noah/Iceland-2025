@@ -12,54 +12,176 @@ Throughout Iceland, there are many glaciers; the 3 largest are Vatnajökull, Lan
 
 :::
 
-:::{#cr-gullfoss_video}
+:::{#cr-oxararfoss_collage}
 
-![](static/waterfalls/gullfoss/video_2.mp4)
+:::: {layout="[[30,40,30,-5]]"}
+![Öxarárfoss, with plunge pool and start of runoff](static/waterfalls/oxararfoss/waterfall_3.jpg)
+
+![Us with runoff stream](static/waterfalls/oxararfoss/us_with_stream_4.jpg)
+
+![The rest of the runoff stream](static/waterfalls/oxararfoss/stream_3.jpg)
+
+::::
 
 :::
 
 :::{focus-on="cr-oxararfoss_video"}
 
-**Öxarárfoss**
+# Öxarárfoss - *Öxará falls* or *Axe river falls*
 
-![Öxarárfoss, with plunge pool and start of runoff](static/waterfalls/oxararfoss/waterfall_2.jpg)
+## June 18th, 2025
+
+![Us with Öxarárfoss](static/waterfalls/oxararfoss/us_with_falls_2.jpg)
+
+:::
+
+:::{focus-on="cr-oxararfoss_collage"}
 
 The first waterfall we visited in Iceland was **Öxarárfoss**, inheriting it's name from the **Öxará river** from which it flows.
 
-![The rest of the runoff stream](static/waterfalls/oxararfoss/stream_2.jpg)
-
 This waterfall is located in the **Þingvellir National Park**, which was the site of the **Alþing**, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798. Since 1881, the parliament has been located within Alþingishúsið in Reykjavík.
 
-![Us with Öxarárfoss](static/waterfalls/oxararfoss/us_with_falls_2.jpg)
 :::
 
-:::{focus-on="cr-gullfoss_video"}
+:::{#cr-gullfoss_video}
 
-**Gullfoss**
+![](static/waterfalls/gullfoss/video_2.mp4){fig-align="center" width="90%"}
 
-![Gullfoss](static/waterfalls/gullfoss/waterfall_5.jpg)
+:::
 
-The second waterfall we visited was **Gullfoss** (*Golden falls*), one of the most popular tourist attractions in Iceland. It is sourced from the **Hvítá river** which begins at **Hvítárvatn glacier lake** on **Langjökull glacier**.
+:::{#cr-gullfoss_collage_1}
+
+:::: {layout="[[50,50,-5],[54,23,23,-5]]"}
 
 ![Upper tier of the falls](static/waterfalls/gullfoss/waterfall_top_6.jpg)
 
-![Lower tier of the falls with some of the runoff](static/waterfalls/gullfoss/waterfall_tip_5.jpg)
+![Lower tier of the falls](static/waterfalls/gullfoss/waterfall_tip_2.jpg)
 
-Gullfoss is huge! The average amount of water running down the waterfall is 141 cubic meters per second but the highest flood measured was 2,000 cubic meters.
-
-![Runoff stream carved into the landscape](static/waterfalls/gullfoss/runoff_basin_4.jpg)
-
-![Steeper view of the runoff stream](static/waterfalls/gullfoss/runoff_stream_11.jpg)
-
-During the 20th century, there was interest in harnessing the power of Gullfoss to generate electricity. **Sigríður Tómasdóttir** (1874-1957), daughter of the co-owner of the land at the time, is popularly credited with saving the waterfall from exploitation, often walking 120km (one-way) to Reykjavik to further case and even threatening to throw herself in the waterfalls. Eventually, Gullfoss became the property of the people of Iceland and was made a permanent conservation site in 1979.
-
-![Memorial of Sigríður Tómasdóttir which stands over the waterfalls, made by Rikhardur Jonsson](static/waterfalls/gullfoss/sigridur_tomasdottir_2.jpg)
+![Runoff stream carved into the landscape](static/waterfalls/gullfoss/runoff_basin_3.jpg)
 
 ![Alex with Gullfoss](static/waterfalls/gullfoss/alex_with_falls_2.jpg)
 
 ![Noah with Gullfoss](static/waterfalls/gullfoss/noah_with_falls_1.jpg)
 
+::::
+
+:::
+
+:::{#cr-gullfoss_collage_2}
+
+:::: {layout="[[21.5,50.25,28.25,-5]]"}
+
+![Memorial of Sigríður Tómasdóttir which stands over the waterfalls, made by Rikhardur Jonsson](static/waterfalls/gullfoss/sigridur_tomasdottir_2.jpg)
+
+![Gullfoss](static/waterfalls/gullfoss/waterfall_5.jpg)
+
+![Steep view of the runoff stream](static/waterfalls/gullfoss/runoff_stream_11.jpg)
+
+::::
+
+:::
+
+:::{focus-on="cr-gullfoss_video"}
+
+# Gullfoss - *Golden falls*
+
+## June 18th, 2025
+
 ![Us with Gullfoss](static/waterfalls/gullfoss/us_with_falls_4.jpg)
+
+:::
+
+:::{focus-on="cr-gullfoss_collage_1"}
+
+The second waterfall we visited was **Gullfoss** (*Golden falls*), one of the most popular tourist attractions in Iceland. It is sourced from the **Hvítá river** which begins at **Hvítárvatn glacier lake** on **Langjökull glacier**.
+
+Gullfoss is huge! The average amount of water running down the waterfall is 141 cubic meters per second but the highest flood measured was 2,000 cubic meters.
+
+:::
+
+:::{focus-on="cr-gullfoss_collage_2"}
+
+During the 20th century, there was interest in harnessing the power of Gullfoss to generate electricity. **Sigríður Tómasdóttir** (1874-1957), daughter of the co-owner of the land at the time, is popularly credited with saving the waterfall from exploitation, often walking 120km (one-way) to Reykjavik to further case and even threatening to throw herself in the waterfalls. Eventually, Gullfoss became the property of the people of Iceland and was made a permanent conservation site in 1979.
+
+:::
+
+:::{#cr-barnafoss_video}
+
+![](static/waterfalls/barnafoss/video_3.mp4){fig-align="center" width="45%"}
+
+:::
+
+:::{#cr-barnafoss_collage}
+
+:::: {layout="[[36.5,27,36.5,-5]]"}
+
+![Alex with Barnafoss](static/waterfalls/barnafoss/alex_with_falls_1.jpg)
+
+![Runoff under a new bridge](static/waterfalls/barnafoss/runoff_3.jpg)
+
+![Noah with Barnafoss](static/waterfalls/barnafoss/noah_with_falls_1.jpg)
+
+::::
+
+:::
+
+:::{focus-on="cr-barnafoss_video"}
+
+# Barnafoss - *Children's falls*
+
+## June 20th, 2025
+
+![Barnafoss](static/waterfalls/barnafoss/waterfall_4.jpg)
+
+:::
+
+:::{focus-on="cr-barnafoss_collage"}
+
+Once we left Reykjavik, we stopped by the waterfall pair of **Barnafoss** and **Hraunfossar**. Both of these falls lie on the **Hvítá**, which is the same source as **Gullfoss**. The more upstream of the two is **Barnafoss**.
+
+Many Icelandic folktales are associated with **Barnafoss**, the most famous bring about two boys from the the nearby farm of **Hraunsás**. One day, their parents went to church and the boys were supposed to stay home. However, they grew bored and followed their parents, making a shortcut which crossed a natural stone-bridge that was above the waterfall. On their way, they felt dizzy and fells into the water and drowned. When their mother found out what happened, she put a spell on the bridge, saying that nobody would ever cross it without drowning himself. A little while later, the bridge was demolished in an earthquake.
+
+:::
+
+:::{#cr-hraunfossar_video}
+
+![](static/waterfalls/hraunfossar/video_1.mp4)
+
+:::
+
+:::{focus-on="cr-hraunfossar_video"}
+
+# Hraunfossar - *Lava falls*
+
+## June 20th, 2025
+
+Further downstream is **Hraunfossar**. Technically, this is a collection of smaller waterfalls formed by rivulets streaming out of the Hallmundarhraun, a lava field which flowed from an eruption of one fo the volcanoes lying under the glacier Langjökull.
+
+:::
+
+<!-- 
+
+:::{#cr-dynjandi_video}
+
+![](static/waterfalls/dynjandi/video_1.mp4)
+
+:::
+
+:::{focus-on="cr-dynjandi_video"}
+
+**Dynjandi**
+
+:::
+
+:::{#cr-misc_waterfalls}
+
+![](static/waterfalls/fossfjordur/PXL_20250622_085435859.jpg)
+
+:::
+
+:::{focus-on="cr-misc_waterfalls"}
+
+**Misc. waterfalls**
 
 :::
 
@@ -81,6 +203,6 @@ Misc Dynjandi 4
 
 Dynjandi
 
-Bunárfoss
+Bunárfoss -->
 
 ::::
