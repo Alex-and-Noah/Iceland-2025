@@ -136,7 +136,7 @@ map <- ggplot() +
   ) +
   annotate(
     geom = "text", y = 63, x = xmid,
-    label = "Ísland", size = 8, colour = "#bfbfbf"
+    label = "Ísland", size = 8, colour = "#BFBFBF"
   ) +
   annotate(
     geom = "errorbarh",

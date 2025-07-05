@@ -1,16 +1,42 @@
 ---
 title: Iceland 2025
+page-layout: full
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - /static/animals/sheep/*.jpg
+  sort-ui: false
+  filter-ui: false
+  categories: false
 ---
+
+
+::: {.columns}
+
+::: {.column}
+
+### 
+
+###
+
+### 
 
 This is a digital scrapbook for our trip to Iceland on June 16th, 2025 to June 26th, 2025.
 
 This website is best viewed on a computer, or in landscape mode on your phone or tablet.
 
-# Sections
+Love Alex & Noah
 
-- [Route](route.qmd)
-- [Waterfalls](waterfalls.qmd)
-- [Animals](animals.qmd)
-- [Plants](plants.qmd)
+:::
+::: {.column}
 
-Made using [Quarto](https://quarto.org/) and [Closeread](https://closeread.dev/guide/).
+![](static/iceland.png){width=4in}
+
+:::
+:::
+
+## Our Favourite Views
+
+::: {#listing-gallery}
+:::
