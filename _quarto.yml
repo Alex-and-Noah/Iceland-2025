@@ -8,6 +8,8 @@ website:
   back-to-top-navigation: true
   reader-mode: true
   navbar:
+    background: black
+    foreground: darkgrey
     left:
       - href: index.qmd
         text: Home
@@ -23,8 +25,6 @@ website:
 
 format:
   closeread-html:
-    theme: cosmo
-    css: styles.css
     embed-resources: true
     cr-style:
       section-background-color: "#4d4d4d"

@@ -1,5 +1,15 @@
 ---
 title: Animals
+lightbox: true
 ---
 
-Various animals of Iceland.
+We saw a lot of animals :-)
+
+
+## Sheep
+
+![A Lovely Image](static/animals/sheep/PXL_20250618_154914426.jpg){group="my-gallery"}
+
+![Another Lovely Image](static/animals/sheep/PXL_20250618_164520846.jpg){group="my-gallery"}
+
+![The Last Lovely Image](static/animals/sheep/PXL_20250621_074132002.jpg){group="my-gallery"}
