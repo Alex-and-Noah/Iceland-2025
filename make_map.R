@@ -40,9 +40,9 @@ streets$osm_lines <- streets$osm_lines |> mutate(
       523, # husafell
       365
     ) ~ "white",
-    ref == 35 & name == "Biskupstungnabraut" &
-      osm_id %in% c(
-        1321387209,
+    ref == 35 & name == "Biskupstungnabraut" & 
+    osm_id %in% c(
+      1321387209,
         680986267,
         8095796,
         759156517,
@@ -51,7 +51,7 @@ streets$osm_lines <- streets$osm_lines |> mutate(
         374946845,
         680980971,
         170476981
-      ) ~ "white",
+    ) ~ "white",
     ref == 37 & osm_id != 192618593 ~ "white",
     ref == 36 & osm_id != 680429139 ~ "white",
     ref == 427 & osm_id %in% c(
