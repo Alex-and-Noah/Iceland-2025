@@ -31,7 +31,7 @@ streets$osm_lines <- streets$osm_lines |> mutate(
       612,
       614, # raudisandur
       41,
-      42, #f
+      42, # f
       43,
       426, # blue lagoon
       44,
@@ -40,9 +40,9 @@ streets$osm_lines <- streets$osm_lines |> mutate(
       523, # husafell
       365
     ) ~ "white",
-    ref == 35 & name == "Biskupstungnabraut" & 
-    osm_id %in% c(
-      1321387209,
+    ref == 35 & name == "Biskupstungnabraut" &
+      osm_id %in% c(
+        1321387209,
         680986267,
         8095796,
         759156517,
@@ -51,7 +51,7 @@ streets$osm_lines <- streets$osm_lines |> mutate(
         374946845,
         680980971,
         170476981
-    ) ~ "white",
+      ) ~ "white",
     ref == 37 & osm_id != 192618593 ~ "white",
     ref == 36 & osm_id != 680429139 ~ "white",
     ref == 427 & osm_id %in% c(
@@ -101,7 +101,7 @@ xmid <- xlimit[1] + diff(xlimit) / 2
 ratio <- diff(xlimit) / diff(ylimit)
 
 
-#geojson
+# geojson
 
 # Geospatial data available at the geojson format
 tmp_geojson <- tempfile(fileext = ".geojson")
@@ -121,16 +121,20 @@ my_sf <- st_transform(my_sf, crs = st_crs(streets$osm_lines))
 
 map <- ggplot() +
   geom_sf(data = my_sf, fill = "grey20", color = "transparent") +
-  geom_sf(data = streets$osm_lines, alpha = .8,
-          linewidth = .3, colour = streets$osm_lines$colour) +
+  geom_sf(
+    data = streets$osm_lines, alpha = .8,
+    linewidth = .3, colour = streets$osm_lines$colour
+  ) +
   # glacier
   geom_sf(
     data = glacier$osm_multipolygons,
     fill = "#42494a",
     colour = "#42494a"
   ) +
-  annotate(geom = "text", y = 63, x = xmid,
-           label = "Ísland", size = 8, colour = "grey75") +
+  annotate(
+    geom = "text", y = 63, x = xmid,
+    label = "Ísland", size = 8, colour = "grey75"
+  ) +
   annotate(
     geom = "errorbarh",
     xmin = xmid - 1,
@@ -140,15 +144,19 @@ map <- ggplot() +
     size = 0.5,
     colour = "grey50"
   ) +
-  annotate(geom = "text", y = 62.9, x =  xmid,
-           label = "Júní 2025", size = 3,
-           colour = "grey50") +
+  annotate(
+    geom = "text", y = 62.9, x = xmid,
+    label = "Júní 2025", size = 3,
+    colour = "grey50"
+  ) +
   coord_sf(ylim = ylimit, xlim = xlimit, expand = FALSE) +
   # finishing touches
   theme_void() +
-  theme(panel.background = element_rect(fill = "grey30"),
-        plot.background = element_rect(fill = "grey30"))
+  theme(
+    panel.background = element_rect(fill = "grey30"),
+    plot.background = element_rect(fill = "grey30")
+  )
 
 map
 
-ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 300,bg = "grey30")
+ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 300, bg = "grey30")

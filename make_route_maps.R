@@ -40,7 +40,7 @@
 #       523, # husafell
 #       365
 #     ) ~ "white",
-#     ref == 35 & name == "Biskupstungnabraut" & 
+#     ref == 35 & name == "Biskupstungnabraut" &
 #     osm_id %in% c(
 #       1321387209,
 #         680986267,
@@ -101,7 +101,7 @@ xmid <- xlimit[1] + diff(xlimit) / 2
 ratio <- diff(xlimit) / diff(ylimit)
 
 
-#geojson
+# geojson
 
 # Geospatial data available at the geojson format
 tmp_geojson <- tempfile(fileext = ".geojson")
@@ -121,8 +121,10 @@ my_sf <- st_transform(my_sf, crs = st_crs(streets$osm_lines))
 
 map <- ggplot() +
   geom_sf(data = my_sf, fill = "grey20", color = "transparent") +
-  geom_sf(data = streets$osm_lines, alpha = .8,
-          linewidth = .3, colour = streets$osm_lines$colour) +
+  geom_sf(
+    data = streets$osm_lines, alpha = .8,
+    linewidth = .3, colour = streets$osm_lines$colour
+  ) +
   # glacier
   geom_sf(
     data = glacier$osm_multipolygons,
