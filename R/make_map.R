@@ -21,6 +21,7 @@ streets <- location |>
   ) |>
   osmdata_sf()
 
+
 streets$osm_lines <- streets$osm_lines |> mutate(
   colour = case_when(
     ref %in% c(
@@ -30,17 +31,19 @@ streets$osm_lines <- streets$osm_lines |> mutate(
       60,
       612,
       614, # raudisandur
+      40,
       41,
-      42, # f
+      42, #f
       43,
       426, # blue lagoon
       44,
+      49,
       425,
       50, # reykholt
       523, # husafell
       365
     ) ~ "white",
-    ref == 35 & name == "Biskupstungnabraut" & 
+    ref == 35 & name == "Biskupstungnabraut" &
     osm_id %in% c(
       1321387209,
         680986267,
@@ -120,10 +123,10 @@ my_sf <- st_transform(my_sf, crs = st_crs(streets$osm_lines))
 
 
 map <- ggplot() +
-  geom_sf(data = my_sf, fill = "grey20", color = "transparent") +
+  geom_sf(data = my_sf, fill = "#333333", color = "transparent") +
   geom_sf(
-    data = streets$osm_lines, alpha = .8,
-    linewidth = .3, colour = streets$osm_lines$colour
+    data = streets$osm_lines,
+    linewidth = .2, colour = streets$osm_lines$colour
   ) +
   # glacier
   geom_sf(
@@ -133,7 +136,7 @@ map <- ggplot() +
   ) +
   annotate(
     geom = "text", y = 63, x = xmid,
-    label = "Ísland", size = 8, colour = "grey75"
+    label = "Ísland", size = 8, colour = "#bfbfbf"
   ) +
   annotate(
     geom = "errorbarh",
@@ -142,7 +145,7 @@ map <- ggplot() +
     y = 62.93,
     height = 0,
     size = 0.5,
-    colour = "grey50"
+    colour = "#7F7F7F"
   ) +
   annotate(
     geom = "text", y = 62.9, x = xmid,
@@ -153,10 +156,10 @@ map <- ggplot() +
   # finishing touches
   theme_void() +
   theme(
-    panel.background = element_rect(fill = "grey30"),
+    panel.background = element_rect(fill = "#4D4D4D"),
     plot.background = element_rect(fill = "grey30")
   )
 
 map
 
-ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 300, bg = "grey30")
+ggsave("./static/iceland_map.png", map, height = 8 * ratio, width = 8, dpi = 1000, bg = "grey30")

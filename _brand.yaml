@@ -1,0 +1,36 @@
+meta:
+  name: brand.yml
+  link: https://alex-and-noah.github.io/Iceland-2025/
+
+logo: 
+  images:
+    path: icon.png
+
+color:
+  palette:
+    black: "#333333"
+    darkgrey: "#4D4D4D"
+    white: "#bfbfbf"
+    lupine: "#c896ff"
+  foreground: white
+  background: darkgrey
+  primary: lupine
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+    - family: Rubik
+      source: google
+    - family: IBM Plex Mono
+      source: google
+
+  base: 
+    family: Open Sans
+  headings:
+    family: Rubik
+    weight: 400
+    color: white
+  monospace: 
+    family: IBM Plex Mono
+    color: white
