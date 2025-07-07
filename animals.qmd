@@ -1,6 +1,35 @@
 ---
 title: Animals
-lightbox: true
+page-layout: full
+listing:
+  - id: sheep
+    template: gallery.ejs
+    contents:
+        - /static/animals/sheep/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: birds
+    template: gallery.ejs
+    contents:
+        - /static/animals/birds/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: horses
+    template: gallery.ejs
+    contents:
+        - /static/animals/horses/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: whale
+    template: gallery.ejs
+    contents:
+        - /static/animals/whale/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
 ---
 
 We saw a lot of animals :-)
@@ -8,8 +37,20 @@ We saw a lot of animals :-)
 
 ## Sheep
 
-![A Lovely Image](static/animals/sheep/PXL_20250618_154914426.jpg){group="my-gallery"}
+::: {#sheep}
+:::
 
-![Another Lovely Image](static/animals/sheep/PXL_20250618_164520846.jpg){group="my-gallery"}
+## Birds
 
-![The Last Lovely Image](static/animals/sheep/PXL_20250621_074132002.jpg){group="my-gallery"}
+::: {#birds}
+:::
+
+## Horses
+
+::: {#horses}
+:::
+
+## Whales
+
+::: {#whale}
+:::
