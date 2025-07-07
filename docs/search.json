@@ -42,13 +42,6 @@
     "text": "Various plants of Iceland.\n\n\n\n Back to top"
   },
   {
-    "objectID": "closeread_example.html",
-    "href": "closeread_example.html",
-    "title": "Closeread example",
-    "section": "",
-    "text": "What is Quarto? What is R?\n\n\n\n\nQuarto is an open-source scientific and technical publishing system.\n\n\n\n\nQuarto lets you author documents using plain text markdown in your favorite editor.\n\n\n\n\n1\n\n\n\n\n2\n\n\n\n\n3\n\n\n\n\n4\n\n\n\n\nYou can use quarto documents with R.\n\n\n\n\nR is a free software environment for statistical computing and graphics.\n\n\n\n\nR is available on Unix, MacOS, and Windows.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "animals.html",
     "href": "animals.html",
     "title": "Animals",
@@ -60,7 +53,28 @@
     "href": "animals.html#sheep",
     "title": "Animals",
     "section": "Sheep",
-    "text": "Sheep\n\n\n\nA Lovely Image\n\n\n\n\n\nAnother Lovely Image\n\n\n\n\n\nThe Last Lovely Image"
+    "text": "Sheep\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "animals.html#birds",
+    "href": "animals.html#birds",
+    "title": "Animals",
+    "section": "Birds",
+    "text": "Birds\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "animals.html#horses",
+    "href": "animals.html#horses",
+    "title": "Animals",
+    "section": "Horses",
+    "text": "Horses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "animals.html#whales",
+    "href": "animals.html#whales",
+    "title": "Animals",
+    "section": "Whales",
+    "text": "Whales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -74,7 +88,7 @@
     "href": "index.html#our-favourite-views",
     "title": "Iceland 2025",
     "section": "Our Favourite Views",
-    "text": "Our Favourite Views\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Our Favourite Views\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "route.html",
