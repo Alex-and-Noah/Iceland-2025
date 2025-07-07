@@ -10,23 +10,23 @@ title: Route
 
 The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{pan-to="0%,-13%" scale-by="1"}
 
-June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="260%,-177%" scale-by="10"}
+June 17th: Arrived in Reykjavik and walked around [@cr-route]{pan-to="260%,-177%" scale-by="10"}
 
-June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="95%,-90%" scale-by="6"}
+June 18th: Drove to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="95%,-90%" scale-by="6"}
 
-June 19th: Walk around Reykjavik [@cr-route]{pan-to="370%,-260%" scale-by="16"}
+June 19th: Walked around Reykjavik. Tried Opal. [@cr-route]{pan-to="370%,-260%" scale-by="16"}
 
-June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="50%,-20%" scale-by="2.2"}
+June 20th: Drive to Vidgelmir cave, then to Gil Guesthouse [@cr-route]{pan-to="50%,-20%" scale-by="2.2"}
 
-June 21st: Drive to Red sand beaches and Latrabjarg, then to Harbour Inn Guesthouse [@cr-route]{pan-to="115%,30%" scale-by="3.5"}
+June 21st: Drove to Rauðisandur and Latrabjarg, then to Harbour Inn Guesthouse in Bíldudalur. [@cr-route]{pan-to="115%,30%" scale-by="3.5"}
 
-June 22nd: Drive to Dyjandi waterfall and Isafjordur, then to Einarshusid Guesthouse [@cr-route]{pan-to="175%,82%" scale-by="5"}
+June 22nd: Drove to Dynjandi waterfall and Isafjordur, then to Einarshusid Guesthouse in Bolungarvik. [@cr-route]{pan-to="175%,82%" scale-by="5"}
 
-June 23th: Drive to Holmavik, then to Dala Hotel [@cr-route]{pan-to="85%,35%" scale-by="3"}
+June 23th: Drove to Holmavik, saw the sheep farming museum then drove to Dala Hotel [@cr-route]{pan-to="85%,35%" scale-by="3"}
 
-June 24th: Drive to Grindavik and the Rekyjanes, then to Northern Lights Inn [@cr-route]{pan-to="45%,-25%" scale-by="2"}
+June 24th: Drove to Grindavik and the Rekyjanes, then to Northern Lights Inn. Stopped in at the Blue Lagoon. [@cr-route]{pan-to="45%,-25%" scale-by="2"}
 
-June 25th: Drive around the Reykjanes again and Fagradalsfjall volcano, then to Reykjavik [@cr-route]{pan-to="230%,-170%" scale-by="9"}
+June 25th: Drove around the Reykjanes again and hiked Fagradalsfjall volcano, then back to Reykjavik [@cr-route]{pan-to="230%,-170%" scale-by="9"}
 
 That's all! [@cr-route]{pan-to="0%,-13%" scale-by="1"}
 
