@@ -8,7 +8,7 @@ Throughout Iceland, there are many glaciers; the 3 largest are Vatnajökull, Lan
 
 :::{#cr-oxararfoss_video}
 
-![](static/waterfalls/oxararfoss/video.mp4){fig-align="center" width=45%}
+<iframe width="458" height="815" src="https://www.youtube.com/embed/a5-Qaz0-7lw" title="Öxarárfoss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::
 
