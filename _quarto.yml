@@ -17,7 +17,6 @@ website:
       - waterfalls.qmd
       - animals.qmd
       - plants.qmd
-      - closeread_example.qmd
     right:
       - icon: github
         href: https://github.com/NoahBolohan/Iceland-2025

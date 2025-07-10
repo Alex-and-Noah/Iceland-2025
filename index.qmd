@@ -5,7 +5,7 @@ listing:
   id: listing-gallery
   template: gallery.ejs
   contents:
-    - /static/animals/sheep/*.jpg
+    - /static/favourites/*.jpg
   sort-ui: false
   filter-ui: false
   categories: false
