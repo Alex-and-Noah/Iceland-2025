@@ -1,3 +1,8 @@
+# install.packages("dplyr")
+# install.packages("ggplot2")
+# install.packages("osmdata")
+# install.packages("sf")
+
 library("dplyr")
 library("ggplot2")
 library("osmdata")
@@ -96,6 +101,33 @@ glacier <- location |>
   add_osm_feature(key = "natural", value = "glacier") |>
   osmdata_sf()
 
+locations_multipolygons <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name:en" = "Keflavík International Airport",
+        "name:en" = "	Reykjavik",
+        "name:en" = "Þingvellir National Park",
+        "name" = "Rauðasandur",
+        "name" = "Látrabjarg"
+    )
+  ) |>
+  osmdata_sf()
+
+locations_points <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name:en" = "Geysir",
+        "name:en" = "Gullfoss",
+        "name:en" = "Glymur",
+        "name"= "Víðgelmir",
+        "name:en" = "Gil Guesthouse"
+    )
+  ) |>
+  osmdata_sf()
+
+
 
 xlimit <- c(-25.2, -13)
 ylimit <- c(63.2, 66.7)
@@ -133,6 +165,19 @@ map <- ggplot() +
     fill = "#42494a",
     colour = "#42494a"
   ) +
+  # Locations - multipolygons
+  geom_sf(
+    data = locations_multipolygons$osm_multipolygons,
+    fill = "#ff0000",
+    colour ="#ff0000"
+  ) +
+  # Locations - points
+  geom_sf(
+    data = locations_points$osm_points,
+    fill = "#ff0000",
+    colour ="#ff0000"
+  ) +
+  # stat_sf_coordinates() + 
   coord_sf(ylim = ylimit, xlim = xlimit, expand = FALSE) +
   # finishing touches
   theme_void() +
@@ -146,4 +191,4 @@ map <- ggplot() +
 
 map
 
-ggsave("./static/route.png", map, dpi = 1000)
+# ggsave("./static/route.png", map, dpi = 1000)
