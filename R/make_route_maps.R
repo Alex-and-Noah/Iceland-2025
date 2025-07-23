@@ -127,7 +127,11 @@ locations_multipolygons <- location |>
         "name" = "Harbour Inn Guesthouse",
         "name" = "Reykjanes",
         "name:en" = "Blue Lagoon",
-        "name" = "Fagradalsfjall"
+        "name" = "Fagradalsfjall",
+        "name" = "National Museum of Iceland",
+        "name:en" = "Grótta lighthouse",
+        "name" = "Ylströndin í Nauthólsvík",
+        "name" = "Jökulfirðir"
     )
   ) |>
   osmdata_sf()
@@ -137,7 +141,8 @@ locations_polygons <- location |>
   add_osm_features(
     features = list (
         "name" = "Harbour Inn Guesthouse",
-        "name" = "Einarshús Guesthouse"
+        "name" = "Einarshús Guesthouse",
+        "name" = "Museum of Sorcery and Witchcraft"
     )
   ) |>
   osmdata_sf()
@@ -146,7 +151,8 @@ locations_polygons <- location |>
   opq() |>
   add_osm_features(
     features = list (
-        "name" = "Látrabjarg"
+        "name" = "Látrabjarg",
+        "name" = "Bridge Between Continents"
     )
   ) |>
   osmdata_sf()
@@ -164,10 +170,14 @@ locations_points <- location |>
         "alt_name" = "Fjallfoss",
         "name" = "Tónlistarskóli Ísafjarðar",
         "name" = "Grindavík",
-        "name" = "Northern Light Inn"
+        "name" = "Northern Light Inn",
+        "name" = "Sky Lagoon",
+        "name" = "The Sheep Farming Museum"
     )
   ) |>
   osmdata_sf()
+
+  # Dalahestar - landuse:farmyard 1147655533
 
 
 
@@ -223,4 +233,4 @@ map <- ggplot() +
 
 map
 
-ggsave("./static/route_with_landmarks.png", map, dpi = 1000)
+# ggsave("./static/route_with_landmarks.png", map, dpi = 1000)

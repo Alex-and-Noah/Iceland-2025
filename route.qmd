@@ -10,24 +10,112 @@ title: Route
 
 The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{pan-to="0%,-13%" scale-by="1"}
 
-June 17th: Drove to Reykjavik and walked around [@cr-route]{pan-to="260%,-177%" scale-by="10"}
+::: {focus-on="cr-route" pan-to="260%,-177%" scale-by="10"}
 
-June 18th: Drive to Thingvellir, Geysir, and Gulfoss, then back to Reykjavik [@cr-route]{pan-to="95%,-90%" scale-by="6"}
+June 17th: Arrival in Iceland
 
-June 19th: Walk around Reykjavik [@cr-route]{pan-to="370%,-260%" scale-by="16"}
+- Landed at the Keflavík International Airport
+- Drove to Reykjavik
+- Walked around the city
+- It was the National Day of Iceland!
 
-June 20th: Drive to Glymur waterfall and The Cave tour, then to Gil Guesthouse [@cr-route]{pan-to="50%,-20%" scale-by="2.2"}
+:::
 
-June 21st: Drive to Red sand beaches and Latrabjarg, then to Harbour Inn Guesthouse [@cr-route]{pan-to="115%,30%" scale-by="3.5"}
+::: {focus-on="cr-route" pan-to="95%,-90%" scale-by="6"}
 
-June 22nd: Drive to Dyjandi waterfall and Isafjordur, then to Einarshusid Guesthouse [@cr-route]{pan-to="175%,82%" scale-by="5"}
+June 18th: Landmarks in southwest Iceland
 
-June 23th: Drive to Holmavik, then to Dala Hotel [@cr-route]{pan-to="85%,35%" scale-by="3"}
+- Thingvellir is the site of Iceland's parliament from the 10th the 18th century
+- Geysir, a.k.a. The *Great Geysir*, is a hot spring and geothermal area
+Gullfoss
+- Gullfoss, a.k.a. *Golden Falls*, is a huge two-tiered waterfall
 
-June 24th: Drive to Grindavik and the Rekyjanes, then to Northern Lights Inn [@cr-route]{pan-to="45%,-25%" scale-by="2"}
+:::
 
-June 25th: Drive around the Reykjanes again and Fagradalsfjall volcano, then to Reykjavik [@cr-route]{pan-to="230%,-170%" scale-by="9"}
+::: {focus-on="cr-route" pan-to="370%,-260%" scale-by="16"}
 
-That's all! [@cr-route]{pan-to="0%,-13%" scale-by="1"}
+June 19th: Back to Reykjavik
+
+- National Museum of Iceland
+- Grotta lighthouse
+- Nautholsvik beach
+- Some interesting stores we missed on day 1
+
+:::
+
+::: {focus-on="cr-route" pan-to="50%,-20%" scale-by="2.2"}
+
+June 20th: First day towards the Westfjords
+
+- Barnafoss and Hraunfossar waterfalls
+- Tour of the Víðgelmir lava tube cave
+- Arrival at Gil Guesthouse for the night
+
+:::
+
+::: {focus-on="cr-route" pan-to="115%,30%" scale-by="3.5"}
+
+June 21st: Beaches and Birds
+
+- Kleifabúi, the stone man by the road
+- Rauðisandur, the red sand beaches
+- Látrabjarg, the westernmost point in Iceland
+- Arrival at Harbour Inn Guesthouse for the night
+
+:::
+
+::: {focus-on="cr-route" pan-to="175%,82%" scale-by="5"}
+
+June 22nd: A day in Ísafjörður
+
+- Dynjandi waterfall
+- Arrival in Ísafjörður, the largest settlement of the Westfjords (pop. 2744)
+- Bike tour around the avalanche walls of Ísafjörður
+- Arrival at Einarshús Guesthouse for the night
+
+:::
+
+::: {focus-on="cr-route" pan-to="85%,35%" scale-by="3"}
+
+June 23th: Along the eastern Westfjords
+
+- Whale-watching in Ísafjarðardjúp and Jökulfirðir
+- Sheep farming Museum south of Holmavik
+- Museum of Witchcraft and Sorcery in Holmavik
+- Arrival at Dalahótel for the night, which included a natural hot spring
+
+:::
+
+::: {focus-on="cr-route" pan-to="45%,-25%" scale-by="2"}
+
+June 24th: Happy birthday, Alex! A special day to celebrate
+
+- Horse riding at Dalahestar
+- Drive back down past Reykjavik to some geothermal sites around the Reykjanes
+- Arrival at Northern Light Inn for a birthday dinner
+- Evening at the Blue Lagoon spa
+
+:::
+
+::: {focus-on="cr-route" pan-to="230%,-170%" scale-by="9"}
+
+June 25th: More of the Reykjanes
+
+- Very long hike along Fagradalsfjall volcano
+- Visit to the Bridge Between Continents, which spans a fissure between the Eurasian and North American tectonic plates
+- Drive back to Reykjavik to arrive at Downtown Reykjavik Apartments
+- An evening at the Sky Lagoon spa
+
+:::
+
+::: {focus-on="cr-route" pan-to="0%,-13%" scale-by="1"}
+
+June 26th: Goodbye Iceland!
+
+- Drive back to Keflavík International Airport to catch our early flight home
+
+That's all!
+
+:::
 
 ::::
