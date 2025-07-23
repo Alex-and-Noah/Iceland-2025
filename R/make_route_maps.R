@@ -1,8 +1,3 @@
-# install.packages("dplyr")
-# install.packages("ggplot2")
-# install.packages("osmdata")
-# install.packages("sf")
-
 library("dplyr")
 library("ggplot2")
 library("osmdata")
@@ -95,40 +90,6 @@ streets$osm_lines <- streets$osm_lines |> mutate(
   )
 ) |> filter(colour == "white")
 
-
-glacier <- location |>
-  opq() |>
-  add_osm_feature(key = "natural", value = "glacier") |>
-  osmdata_sf()
-
-locations_multipolygons <- location |>
-  opq() |>
-  add_osm_features(
-    features = list (
-        "name:en" = "Keflavík International Airport",
-        "name:en" = "	Reykjavik",
-        "name:en" = "Þingvellir National Park",
-        "name" = "Rauðasandur",
-        "name" = "Látrabjarg"
-    )
-  ) |>
-  osmdata_sf()
-
-locations_points <- location |>
-  opq() |>
-  add_osm_features(
-    features = list (
-        "name:en" = "Geysir",
-        "name:en" = "Gullfoss",
-        "name:en" = "Glymur",
-        "name"= "Víðgelmir",
-        "name:en" = "Gil Guesthouse"
-    )
-  ) |>
-  osmdata_sf()
-
-
-
 xlimit <- c(-25.2, -13)
 ylimit <- c(63.2, 66.7)
 xmid <- xlimit[1] + diff(xlimit) / 2
@@ -148,6 +109,65 @@ download.file(
 
 my_sf <- read_sf(tmp_geojson)
 my_sf <- st_transform(my_sf, crs = st_crs(streets$osm_lines))
+
+
+glacier <- location |>
+  opq() |>
+  add_osm_feature(key = "natural", value = "glacier") |>
+  osmdata_sf()
+
+locations_multipolygons <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name:en" = "Keflavík International Airport",
+        "name:en" = "	Reykjavik",
+        "name:en" = "Þingvellir National Park",
+        "name" = "Rauðasandur",
+        "name" = "Harbour Inn Guesthouse",
+        "name" = "Reykjanes",
+        "name:en" = "Blue Lagoon",
+        "name" = "Fagradalsfjall"
+    )
+  ) |>
+  osmdata_sf()
+
+locations_polygons <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name" = "Harbour Inn Guesthouse",
+        "name" = "Einarshús Guesthouse"
+    )
+  ) |>
+  osmdata_sf()
+
+  locations_multilines <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name" = "Látrabjarg"
+    )
+  ) |>
+  osmdata_sf()
+
+
+locations_points <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name:en" = "Geysir",
+        "name:en" = "Gullfoss",
+        "name:en" = "Glymur",
+        "name"= "Víðgelmir",
+        "name:en" = "Gil Guesthouse",
+        "alt_name" = "Fjallfoss",
+        "name" = "Tónlistarskóli Ísafjarðar",
+        "name" = "Grindavík",
+        "name" = "Northern Light Inn"
+    )
+  ) |>
+  osmdata_sf()
 
 
 
@@ -171,6 +191,18 @@ map <- ggplot() +
     fill = "#ff0000",
     colour ="#ff0000"
   ) +
+  # Locations - polygons
+  geom_sf(
+    data = locations_polygons$osm_points,
+    fill = "#ff0000",
+    colour ="#ff0000"
+  ) +
+  # Locations - multilines
+  geom_sf(
+    data = locations_multilines$osm_multilines,
+    fill = "#ff0000",
+    colour ="#ff0000"
+  ) +
   # Locations - points
   geom_sf(
     data = locations_points$osm_points,
@@ -191,4 +223,4 @@ map <- ggplot() +
 
 map
 
-# ggsave("./static/route.png", map, dpi = 1000)
+ggsave("./static/route_with_landmarks.png", map, dpi = 1000)
