@@ -5,7 +5,7 @@ title: Route
 ::::{.cr-section}
 
 :::{#cr-route}
-![](static/route.png)
+![](static/route_with_landmarks.png)
 :::
 
 The driving route we took through the country using Alex's road maps. Maybe a section of scary routes at the end with elevation. [@cr-route]{pan-to="0%,-13%" scale-by="1"}
@@ -14,10 +14,10 @@ The driving route we took through the country using Alex's road maps. Maybe a se
 
 June 17th: Arrival in Iceland
 
-- Landed at the Keflavík International Airport
-- Drove to Reykjavik
-- Walked around the city
-- It was the National Day of Iceland!
+- <span style="color:LightPink">Landed at the Keflavík International Airport</span>
+- <span style="color:PaleTurquoise">Drove to Reykjavik</span>
+- <span style="color:NavajoWhite">Walked around the city</span>
+- <span style="color:MediumAquaMarine">It was the National Day of Iceland!</span>
 
 :::
 
