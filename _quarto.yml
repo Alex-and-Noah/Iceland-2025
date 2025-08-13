@@ -16,7 +16,6 @@ website:
       - route.qmd
       - waterfalls.qmd
       - animals.qmd
-      - plants.qmd
     right:
       - icon: github
         href: https://github.com/NoahBolohan/Iceland-2025
@@ -24,7 +23,7 @@ website:
 
 format:
   closeread-html:
-    embed-resources: true
+    # embed-resources: true
     cr-style:
       section-background-color: "#4d4d4d"
       narrative-text-color-sidebar: "#bfbfbf"
