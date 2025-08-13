@@ -23,6 +23,34 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: false
+  - id: listing-hraunfossar
+    template: gallery.ejs
+    contents:
+        - /static/waterfalls/hraunfossar/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: listing-dynjandi
+    template: gallery.ejs
+    contents:
+        - /static/waterfalls/dynjandi/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: listing-dynjandi-other
+    template: gallery.ejs
+    contents:
+        - /static/waterfalls/hundafoss/*.jpg
+        - /static/waterfalls/misc_dynjandi_1/*.jpg
+        - /static/waterfalls/misc_dynjandi_2/*.jpg
+        - /static/waterfalls/misc_dynjandi_3/*.jpg
+        - /static/waterfalls/misc_dynjandi_4/*.jpg
+        - /static/waterfalls/bunarfoss/*.jpg
+        - /static/waterfalls/fossfjordur/*.jpg
+        - /static/waterfalls/hundafoss/*.jpg
+    sort-ui: false
+    filter-ui: false
+    categories: false
 ---
 
 Throughout Iceland, there are many glaciers; the 3 largest are Vatnajökull, Langjökull, and Hofsjökull, but there are hundreds of other smaller glaciers all over the country, covering about 10% of the land (around 10,400 square kilometers). As a result, there are also waterfalls all over the place! Here are a few that we visited during our trip:
@@ -70,9 +98,6 @@ Gullfoss is huge! The average amount of water running down the waterfall is 141 
 
 During the 20th century, there was interest in harnessing the power of Gullfoss to generate electricity. **Sigríður Tómasdóttir** (1874-1957), daughter of the co-owner of the land at the time, is popularly credited with saving the waterfall from exploitation, often walking 120km (one-way) to Reykjavik to further case and even threatening to throw herself in the waterfalls. Eventually, Gullfoss became the property of the people of Iceland and was made a permanent conservation site in 1979.
 
-::: {#listing-gullfoss}
-:::
-
 :::
 
 ::: {.column width="5%"}
@@ -85,6 +110,9 @@ During the 20th century, there was interest in harnessing the power of Gullfoss 
 
 {{< video https://www.youtube.com/embed/RNCUnOuAXfA width="600" height="337.5" >}}
 
+:::
+
+::: {#listing-gullfoss}
 :::
 
 ::::
@@ -116,8 +144,73 @@ Many Icelandic folktales are associated with **Barnafoss**, the most famous brin
 
 {{< video https://www.youtube.com/embed/HFzTtjHTeQ0 width="337.5" height="600" >}}
 
-{{< video https://www.youtube.com/embed/Diat8Yijojw width="337.5" height="600" >}}
+:::
 
+::::
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+# Hraunfossar - *Lava falls*
+
+## June 20th, 2025
+
+Downstream from **Barnafoss** is **Hraunfossar**. This is a series of waterfalls formed by rivulets streaming out of the **Hallmundarhraun**, a lava field which flowed from an eruption of one of the volcanoes lying under the glacier Langjökull.
+
+
+::: {#listing-hraunfossar}
+:::
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="20%"}
+
+{{< video https://www.youtube.com/embed/hF_GJzxA-Z8 width="337.5" height="600" >}}
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+# Dynjandi - *Thunderous*
+
+## June 20th, 2025
+
+The last waterfall we visited in iceland is **Dynjandi**, also known as **Fjallfoss** (*Mountain Falls*). It is the largest waterfall in the Westfjords, with a total height of 100 meters.
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="40%"}
+
+<!-- {{< video https://www.youtube.com/embed/6jC16gbakbw width="600" height="337.5" >}} -->
+{{< video https://www.youtube.com/embed/BEaK9wWnh5k width="600" height="337.5" >}}
+
+:::
+
+::: {#listing-dynjandi}
+:::
+
+::::
+
+:::: {.columns}
+
+# Some other waterfalls around Iceland
+
+## Various dates
+
+::: {#listing-dynjandi-other}
 :::
 
 ::::
