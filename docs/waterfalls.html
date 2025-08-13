@@ -158,6 +158,90 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-hraunfossar .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-hraunfossar'] = new List('listing-listing-hraunfossar', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-dynjandi .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-dynjandi'] = new List('listing-listing-dynjandi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-dynjandi-other .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-dynjandi-other'] = new List('listing-listing-dynjandi-other', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <meta cr-debug-mode="false">
 <meta cr-remove-header-space="false">
@@ -257,8 +341,8 @@ window.Quarto = {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-narrative-text-color-sidebar: #bfbfbf;
---cr-section-background-color: #4d4d4d;
+          --cr-section-background-color: #4d4d4d;
+--cr-narrative-text-color-sidebar: #bfbfbf;
         }
       </style>
     
@@ -355,7 +439,14 @@ No matching items
 <p>The second waterfall we visited was <strong>Gullfoss</strong> (<em>Golden falls</em>), one of the most popular tourist attractions in Iceland. It is sourced from the <strong>Hvítá river</strong> which begins at <strong>Hvítárvatn glacier lake</strong> on <strong>Langjökull glacier</strong>.</p>
 <p>Gullfoss is huge! The average amount of water running down the waterfall is 141 cubic meters per second but the highest flood measured was 2,000 cubic meters.</p>
 <p>During the 20th century, there was interest in harnessing the power of Gullfoss to generate electricity. <strong>Sigríður Tómasdóttir</strong> (1874-1957), daughter of the co-owner of the land at the time, is popularly credited with saving the waterfall from exploitation, often walking 120km (one-way) to Reykjavik to further case and even threatening to throw herself in the waterfalls. Eventually, Gullfoss became the property of the people of Iceland and was made a permanent conservation site in 1979.</p>
-<div id="listing-listing-gullfoss" class="quarto-listing quarto-listing-container-custom">
+</section>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/euG1sbnehMY" width="600" height="337.5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/RNCUnOuAXfA" width="600" height="337.5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div><div id="listing-listing-gullfoss" class="quarto-listing quarto-listing-container-custom">
 <style type="text/css">
 .grid-gallery {
   columns: 5 200px;
@@ -429,14 +520,6 @@ img.grid-item:hover {
 No matching items
 </div>
 </div>
-</section>
-</section>
-</div><div class="column" style="width:5%;">
-
-</div><div class="column" style="width:40%;">
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/euG1sbnehMY" width="600" height="337.5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/RNCUnOuAXfA" width="600" height="337.5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</div>
 </div>
 <div class="columns">
 <div class="column" style="width:75%;">
@@ -500,8 +583,213 @@ No matching items
 </div><div class="column" style="width:20%;">
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/F3vM0u25pOU" width="337.5" height="600" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/HFzTtjHTeQ0" width="337.5" height="600" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/Diat8Yijojw" width="337.5" height="600" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
+</div>
+<div class="columns">
+<div class="column" style="width:75%;">
+<section id="hraunfossar---lava-falls" class="level1">
+<h1>Hraunfossar - <em>Lava falls</em></h1>
+<section id="june-20th-2025-1" class="level2">
+<h2 class="anchored" data-anchor-id="june-20th-2025-1">June 20th, 2025</h2>
+<p>Downstream from <strong>Barnafoss</strong> is <strong>Hraunfossar</strong>. This is a series of waterfalls formed by rivulets streaming out of the <strong>Hallmundarhraun</strong>, a lava field which flowed from an eruption of one of the volcanoes lying under the glacier Langjökull.</p>
+<div id="listing-listing-hraunfossar" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_125442709.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_125442709.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130018802.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130018802.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130035622.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130035622.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130351414.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130351414.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130410653.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130410653.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130503955.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130503955.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hraunfossar\PXL_20250620_130550188.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hraunfossar\PXL_20250620_130550188.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:20%;">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/hF_GJzxA-Z8" width="337.5" height="600" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:55%;">
+<section id="dynjandi---thunderous" class="level1">
+<h1>Dynjandi - <em>Thunderous</em></h1>
+<section id="june-20th-2025-2" class="level2">
+<h2 class="anchored" data-anchor-id="june-20th-2025-2">June 20th, 2025</h2>
+<p>The last waterfall we visited in iceland is <strong>Dynjandi</strong>, also known as <strong>Fjallfoss</strong> (<em>Mountain Falls</em>). It is the largest waterfall in the Westfjords, with a total height of 100 meters.</p>
+</section>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<!--  -->
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/BEaK9wWnh5k" width="600" height="337.5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div><div id="listing-listing-dynjandi" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_095445914.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_095445914.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_095452652.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_095452652.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_100357155.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_100357155.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_100533883.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_100533883.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_100909670.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_100909670.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_101045205.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_101045205.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_101058429.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_101058429.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_101117461.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_101117461.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_101328566.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_101328566.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\dynjandi\PXL_20250622_101351234.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\dynjandi\PXL_20250622_101351234.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="columns">
+<section id="some-other-waterfalls-around-iceland" class="level1">
+<h1>Some other waterfalls around Iceland</h1>
+<section id="various-dates" class="level2">
+<h2 class="anchored" data-anchor-id="various-dates">Various dates</h2>
+<div id="listing-listing-dynjandi-other" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href=".\static\waterfalls\hundafoss\PXL_20250622_095106419.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hundafoss\PXL_20250622_095106419.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\hundafoss\PXL_20250622_095128850.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\hundafoss\PXL_20250622_095128850.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_094905881.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_094905881.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_094928799.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_094928799.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_095034082.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_1\PXL_20250622_095034082.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_3\PXL_20250622_095945005.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_3\PXL_20250622_095945005.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_3\PXL_20250622_100153755.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_3\PXL_20250622_100153755.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\misc_dynjandi_4\PXL_20250622_100415839.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\misc_dynjandi_4\PXL_20250622_100415839.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\bunarfoss\PXL_20250622_135353638.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\bunarfoss\PXL_20250622_135353638.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\static\waterfalls\fossfjordur\PXL_20250622_085443961.jpg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\static\waterfalls\fossfjordur\PXL_20250622_085443961.jpg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</section>
 </div>
 
 
@@ -918,7 +1206,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
