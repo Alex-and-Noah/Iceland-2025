@@ -116,9 +116,6 @@ glacier <- location |>
   add_osm_feature(key = "natural", value = "glacier") |>
   osmdata_sf()
 
-#TODO use case_when() with named list or facftors to mutate for colour
-# inside teh dataframes, not this object itself.
-
 locations_multipolygons <- location |>
   opq() |>
   add_osm_features(
@@ -127,35 +124,17 @@ locations_multipolygons <- location |>
         "name:en" = "	Reykjavik",
         "name:en" = "Þingvellir National Park",
         "name" = "Rauðasandur",
+        "name" = "Harbour Inn Guesthouse",
         "name" = "Reykjanes",
         "name:en" = "Blue Lagoon",
         "name" = "Fagradalsfjall",
-        # "name" = "National Museum of Iceland",
-        # "name:en" = "Grótta lighthouse",
-        # "name" = "Ylströndin í Nauthólsvík",
+        "name" = "National Museum of Iceland",
+        "name:en" = "Grótta lighthouse",
+        "name" = "Ylströndin í Nauthólsvík",
         "name" = "Jökulfirðir"
     )
   ) |>
   osmdata_sf()
-
-colours_multipolygons <- locations_multipolygons$osm_multipolygons |>
-  as.data.frame() |>
-  mutate(
-    colour = case_when(
-      `name:en` == "Keflavík International Airport" ~ "LightPink",
-      `name:en` == "	Reykjavik" ~ "PaleTurquoise",
-      `name:en` == "Þingvellir National Park" ~ "NavajoWhite",
-      `name` == "Rauðasandur" ~ "LightPink",
-      `name` == "Reykjanes" ~ "DarkOrange",
-      `name:en` == "Blue Lagoon" ~ "LightSkyBlue",
-      `name` == "Fagradalsfjall" ~ "ForestGreen",
-      # `name` == "National Museum of Iceland" ~ "PaleTurquoise",
-      # `name:en` == "Grótta lighthouse" ~ "PaleTurquoise",
-      `name` == "Ylströndin í Nauthólsvík" ~ "PaleTurquoise",
-      `name` == "Jökulfirðir" ~ "Orchid",
-      .default = "Red"
-    )
-  )
 
 locations_polygons <- location |>
   opq() |>
@@ -168,36 +147,15 @@ locations_polygons <- location |>
   ) |>
   osmdata_sf()
 
-colours_polygons <- locations_polygons$osm_polygons |>
-  as.data.frame() |>
-  mutate(
-    colour = case_when(
-      `name` == "Harbour Inn Guesthouse" ~ "NavajoWhite",
-      `name` == "Einarshús Guesthouse" ~ "DarkOrange",
-      `name` == "Museum of Sorcery and Witchcraft" ~ "PeachPuff",
-      .default = "Red"
-    )
-  )
-
-locations_multilines <- location |>
+  locations_multilines <- location |>
   opq() |>
   add_osm_features(
     features = list (
         "name" = "Látrabjarg",
-        # "name" = "Bridge Between Continents"
+        "name" = "Bridge Between Continents"
     )
   ) |>
   osmdata_sf()
-
-colours_multilines <- locations_multilines$osm_multilines |>
-  as.data.frame() |>
-  mutate(
-    colour = case_when(
-      `name` == "Látrabjarg" ~ "MediumAquaMarine",
-      `name` == "Bridge Between Continents" ~ "Red",
-      .default = "Red"
-    )
-  )
 
 
 locations_points <- location |>
@@ -206,6 +164,7 @@ locations_points <- location |>
     features = list (
         "name:en" = "Geysir",
         "name:en" = "Gullfoss",
+        "name:en" = "Glymur",
         "name"= "Víðgelmir",
         "name:en" = "Gil Guesthouse",
         "alt_name" = "Fjallfoss",
@@ -213,34 +172,12 @@ locations_points <- location |>
         "name" = "Grindavík",
         "name" = "Northern Light Inn",
         "name" = "Sky Lagoon",
-        "name" = "The Sheep Farming Museum",
-        "name" = "Dalahótel"
+        "name" = "The Sheep Farming Museum"
     )
   ) |>
   osmdata_sf()
 
-colours_points <- locations_points$osm_points |>
-  as.data.frame() |>
-  mutate(
-    colour = case_when(
-      `name:en` == "Geysir" ~ "MediumAquamarine",
-      `name:en` == "Gullfoss" ~ "LightPink",
-      `name` == "Víðgelmir" ~ "LightYellow",
-      `name:en` == "Gil Guesthouse" ~ "LightCoral",
-      `alt_name` == "Fjallfoss" ~ "LightSkyBlue",
-      `name` == "Tónlistarskóli Ísafjarðar" ~ "LightGreen",
-      `name` == "Grindavík" ~ "YellowGreen",
-      `name` == "Northern Light Inn" ~ "LightSkyBlue",
-      `name` == "Sky Lagoon" ~ "PaleTurquoise",
-      `name` == "The Sheep Farming Museum" ~ "PeachPuff",
-      `name` == "Dalahótel" ~ "YellowGreen",
-      .default = "Red"
-    )
-  )
-
   # Dalahestar - landuse:farmyard 1147655533
-  # Dalahotel
-  # Barnafoss/hraunfossar
 
 
 
@@ -261,28 +198,28 @@ map <- ggplot() +
   # Locations - multipolygons
   geom_sf(
     data = locations_multipolygons$osm_multipolygons,
-    fill = colours_multipolygons$colour,
-    colour = colours_multipolygons$colour
+    fill = "#ff0000",
+    colour ="#ff0000"
   ) +
   # Locations - polygons
   geom_sf(
-    data = locations_polygons$osm_polygons,
-    fill = colours_polygons$colour,
-    colour = colours_polygons$colour
+    data = locations_polygons$osm_points,
+    fill = "#ff0000",
+    colour ="#ff0000"
   ) +
   # Locations - multilines
   geom_sf(
     data = locations_multilines$osm_multilines,
-    fill = colours_multilines$colour,
-    colour = colours_multilines$colour
+    fill = "#ff0000",
+    colour ="#ff0000"
   ) +
   # Locations - points
   geom_sf(
     data = locations_points$osm_points,
-    fill = colours_points$colour,
-    colour = colours_points$colour
+    fill = "#ff0000",
+    colour ="#ff0000"
   ) +
-  stat_sf_coordinates() + 
+  # stat_sf_coordinates() + 
   coord_sf(ylim = ylimit, xlim = xlimit, expand = FALSE) +
   # finishing touches
   theme_void() +
@@ -296,4 +233,4 @@ map <- ggplot() +
 
 map
 
-ggsave("./static/route_with_landmarks.png", map, dpi = 1000)
+# ggsave("./static/route_with_landmarks.png", map, dpi = 1000)

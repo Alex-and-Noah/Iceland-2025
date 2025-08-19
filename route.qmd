@@ -16,8 +16,10 @@ June 17th: Arrival in Iceland
 
 - <span style="color:LightPink">Landed at the Keflavík International Airport</span>
 - <span style="color:PaleTurquoise">Drove to Reykjavik</span>
-- <span style="color:NavajoWhite">Walked around the city</span>
-- <span style="color:MediumAquaMarine">It was the National Day of Iceland!</span>
+- <span style="color:PaleTurquoise">Walked around the city</span>
+- <span style="color:PaleTurquoise">It was the National Day of Iceland!</span>
+<!-- - <span style="color:NavajoWhite">Walked around the city</span>
+- <span style="color:MediumAquaMarine">It was the National Day of Iceland!</span> -->
 
 :::
 
@@ -25,10 +27,9 @@ June 17th: Arrival in Iceland
 
 June 18th: Landmarks in southwest Iceland
 
-- Thingvellir is the site of Iceland's parliament from the 10th the 18th century
-- Geysir, a.k.a. The *Great Geysir*, is a hot spring and geothermal area
-Gullfoss
-- Gullfoss, a.k.a. *Golden Falls*, is a huge two-tiered waterfall
+- <span style="color:NavajoWhite">Thingvellir is the site of Iceland's parliament from the 10th the 18th century</span>
+- <span style="color:MediumAquaMarine">Geysir, a.k.a. The *Great Geysir*, is a hot spring and geothermal area</span>
+- <span style="color:LightPink">Gullfoss, a.k.a. *Golden Falls*, is a huge two-tiered waterfall</span>
 
 :::
 
@@ -36,10 +37,10 @@ Gullfoss
 
 June 19th: Back to Reykjavik
 
-- National Museum of Iceland
-- Grotta lighthouse
-- Nautholsvik beach
-- Some interesting stores we missed on day 1
+- <span style="color:PaleTurquoise">National Museum of Iceland</span>
+- <span style="color:PaleTurquoise">Grotta lighthouse</span>
+- <span style="color:PaleTurquoise">Nautholsvik beach</span>
+- <span style="color:PaleTurquoise">Some interesting stores we missed on day 1</span>
 
 :::
 
@@ -47,9 +48,9 @@ June 19th: Back to Reykjavik
 
 June 20th: First day towards the Westfjords
 
-- Barnafoss and Hraunfossar waterfalls
-- Tour of the Víðgelmir lava tube cave
-- Arrival at Gil Guesthouse for the night
+- <span style="color:LightSkyBlue">Barnafoss and Hraunfossar waterfalls</span>
+- <span style="color:LightYellow">Tour of the Víðgelmir lava tube cave</span>
+- <span style="color:LightCoral">Arrival at Gil Guesthouse for the night</span>
 
 :::
 
@@ -57,10 +58,9 @@ June 20th: First day towards the Westfjords
 
 June 21st: Beaches and Birds
 
-- Kleifabúi, the stone man by the road
-- Rauðisandur, the red sand beaches
-- Látrabjarg, the westernmost point in Iceland
-- Arrival at Harbour Inn Guesthouse for the night
+- <span style="color:LightPink">Rauðisandur, the red sand beaches</span>
+- <span style="color:MediumAquaMarine">Látrabjarg, the westernmost point in Iceland</span>
+- <span style="color:NavajoWhite">Arrival at Harbour Inn Guesthouse for the night</span>
 
 :::
 
@@ -68,10 +68,10 @@ June 21st: Beaches and Birds
 
 June 22nd: A day in Ísafjörður
 
-- Dynjandi waterfall
-- Arrival in Ísafjörður, the largest settlement of the Westfjords (pop. 2744)
-- Bike tour around the avalanche walls of Ísafjörður
-- Arrival at Einarshús Guesthouse for the night
+- <span style="color:LightSkyBlue">Dynjandi waterfall</span>
+- <span style="color:LightGreen">Arrival in Ísafjörður, the largest settlement of the Westfjords (pop. 2744)</span>
+- <span style="color:LightGreen">Bike tour around the avalanche walls of Ísafjörður</span>
+- <span style="color:DarkOrange">Arrival at Einarshús Guesthouse for the night</span>
 
 :::
 
@@ -79,10 +79,10 @@ June 22nd: A day in Ísafjörður
 
 June 23th: Along the eastern Westfjords
 
-- Whale-watching in Ísafjarðardjúp and Jökulfirðir
-- Sheep farming Museum south of Holmavik
-- Museum of Witchcraft and Sorcery in Holmavik
-- Arrival at Dalahótel for the night, which included a natural hot spring
+- <span style="color:Orchid">Whale-watching in Ísafjarðardjúp and Jökulfirðir</span>
+- <span style="color:PeachPuff">Sheep farming Museum south of Holmavik</span>
+- <span style="color:PeachPuff">Museum of Witchcraft and Sorcery in Holmavik</span>
+- <span style="color:YellowGreen">Arrival at Dalahótel for the night, which included a natural hot spring</span>
 
 :::
 
@@ -90,10 +90,10 @@ June 23th: Along the eastern Westfjords
 
 June 24th: Happy birthday, Alex! A special day to celebrate
 
-- Horse riding at Dalahestar
-- Drive back down past Reykjavik to some geothermal sites around the Reykjanes
-- Arrival at Northern Light Inn for a birthday dinner
-- Evening at the Blue Lagoon spa
+- <span style="color:YellowGreen">Horse riding at Dalahestar</span>
+- <span style="color:DarkOrange">Drive back down past Reykjavik to some geothermal sites around the Reykjanes</span>
+- <span style="color:LightSkyBlue">Arrival at Northern Light Inn for a birthday dinner</span>
+- <span style="color:LightSkyBlue">Evening at the Blue Lagoon spa</span>
 
 :::
 
@@ -101,10 +101,10 @@ June 24th: Happy birthday, Alex! A special day to celebrate
 
 June 25th: More of the Reykjanes
 
-- Very long hike along Fagradalsfjall volcano
+- <span style="color:Green">Very long hike along Fagradalsfjall volcano</span>
 - Visit to the Bridge Between Continents, which spans a fissure between the Eurasian and North American tectonic plates
-- Drive back to Reykjavik to arrive at Downtown Reykjavik Apartments
-- An evening at the Sky Lagoon spa
+- <span style="color:PaleTurquoise">Drive back to Reykjavik to arrive at Downtown Reykjavik Apartments</span>
+- <span style="color:PaleTurquoise">An evening at the Sky Lagoon spa</span>
 
 :::
 
@@ -112,7 +112,7 @@ June 25th: More of the Reykjanes
 
 June 26th: Goodbye Iceland!
 
-- Drive back to Keflavík International Airport to catch our early flight home
+- <span style="color:LightPink">Drive back to Keflavík International Airport to catch our early flight home</span>
 
 That's all!
 
