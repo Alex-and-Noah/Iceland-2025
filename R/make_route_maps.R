@@ -2,6 +2,9 @@ library("dplyr")
 library("ggplot2")
 library("osmdata")
 library("sf")
+library("shadowtext")
+library("dots")
+library("rlang")
 
 # the bounding box, limiting what we fetch
 location <- getbb("iceland")
@@ -116,9 +119,6 @@ glacier <- location |>
   add_osm_feature(key = "natural", value = "glacier") |>
   osmdata_sf()
 
-#TODO use case_when() with named list or facftors to mutate for colour
-# inside teh dataframes, not this object itself.
-
 locations_multipolygons <- location |>
   opq() |>
   add_osm_features(
@@ -133,28 +133,31 @@ locations_multipolygons <- location |>
         # "name" = "National Museum of Iceland",
         # "name:en" = "Grótta lighthouse",
         # "name" = "Ylströndin í Nauthólsvík",
-        "name" = "Jökulfirðir"
+        "name" = "Álftafjörður"
     )
   ) |>
   osmdata_sf()
 
-colours_multipolygons <- locations_multipolygons$osm_multipolygons |>
+numbers_multipolygons <- locations_multipolygons$osm_multipolygons |>
   as.data.frame() |>
   mutate(
-    colour = case_when(
-      `name:en` == "Keflavík International Airport" ~ "LightPink",
-      `name:en` == "	Reykjavik" ~ "PaleTurquoise",
-      `name:en` == "Þingvellir National Park" ~ "NavajoWhite",
-      `name` == "Rauðasandur" ~ "LightPink",
-      `name` == "Reykjanes" ~ "DarkOrange",
-      `name:en` == "Blue Lagoon" ~ "LightSkyBlue",
-      `name` == "Fagradalsfjall" ~ "ForestGreen",
+    number = case_when(
+      `name:en` == "Keflavík International Airport" ~ "1,26",
+      `name:en` == "	Reykjavik" ~ "2,6,25",
+      `name:en` == "Þingvellir National Park" ~ "3",
+      `name` == "Rauðasandur" ~ "10",
+      `name` == "Reykjanes" ~ "21,24",
+      # `name:en` == "Blue Lagoon" ~ "21",
+      # `name` == "Fagradalsfjall" ~ "23",
       # `name` == "National Museum of Iceland" ~ "PaleTurquoise",
       # `name:en` == "Grótta lighthouse" ~ "PaleTurquoise",
-      `name` == "Ylströndin í Nauthólsvík" ~ "PaleTurquoise",
-      `name` == "Jökulfirðir" ~ "Orchid",
-      .default = "Red"
+      # `name` == "Ylströndin í Nauthólsvík" ~ "PaleTurquoise",
+      `name` == "Álftafjörður" ~ "16",
+      .default = "null"
     )
+  ) |>
+  filter(
+    number != "null"
   )
 
 locations_polygons <- location |>
@@ -168,35 +171,60 @@ locations_polygons <- location |>
   ) |>
   osmdata_sf()
 
-colours_polygons <- locations_polygons$osm_polygons |>
+numbers_polygons <- locations_polygons$osm_polygons |>
   as.data.frame() |>
   mutate(
-    colour = case_when(
-      `name` == "Harbour Inn Guesthouse" ~ "NavajoWhite",
-      `name` == "Einarshús Guesthouse" ~ "DarkOrange",
-      `name` == "Museum of Sorcery and Witchcraft" ~ "PeachPuff",
-      .default = "Red"
+    number = case_when(
+      `name` == "Harbour Inn Guesthouse" ~ "12",
+      `name` == "Einarshús Guesthouse" ~ "15",
+      `name` == "Museum of Sorcery and Witchcraft" ~ "18",
+      .default = "null"
     )
+  ) |>
+  filter(
+    number != "null"
   )
 
 locations_multilines <- location |>
   opq() |>
   add_osm_features(
     features = list (
-        "name" = "Látrabjarg",
-        # "name" = "Bridge Between Continents"
+        "name" = "Látrabjarg"
     )
   ) |>
   osmdata_sf()
 
-colours_multilines <- locations_multilines$osm_multilines |>
+numbers_multilines <- locations_multilines$osm_multilines |>
   as.data.frame() |>
   mutate(
-    colour = case_when(
-      `name` == "Látrabjarg" ~ "MediumAquaMarine",
-      `name` == "Bridge Between Continents" ~ "Red",
-      .default = "Red"
+    number = case_when(
+      `name` == "Látrabjarg" ~ "11",
+      .default = "null"
     )
+  ) |>
+  filter(
+    number != "null"
+  )
+
+locations_lines <- location |>
+  opq() |>
+  add_osm_features(
+    features = list (
+        "name:en" = "Bridge Between Continents"
+    )
+  ) |>
+  osmdata_sf()
+
+numbers_lines <- locations_lines$osm_lines |>
+  as.data.frame() |>
+  mutate(
+    number = case_when(
+      `name:en` == "Bridge Between Continents" ~ "24",
+      .default = "null"
+    )
+  ) |>
+  filter(
+    number != "null"
   )
 
 
@@ -214,37 +242,82 @@ locations_points <- location |>
         "name" = "Northern Light Inn",
         "name" = "Sky Lagoon",
         "name" = "The Sheep Farming Museum",
-        "name" = "Dalahótel"
+        "name" = "Dalahótel",
+        "name" = "Barnafoss"
     )
   ) |>
   osmdata_sf()
 
-colours_points <- locations_points$osm_points |>
+numbers_points <- locations_points$osm_points |>
   as.data.frame() |>
   mutate(
-    colour = case_when(
-      `name:en` == "Geysir" ~ "MediumAquamarine",
-      `name:en` == "Gullfoss" ~ "LightPink",
-      `name` == "Víðgelmir" ~ "LightYellow",
-      `name:en` == "Gil Guesthouse" ~ "LightCoral",
-      `alt_name` == "Fjallfoss" ~ "LightSkyBlue",
-      `name` == "Tónlistarskóli Ísafjarðar" ~ "LightGreen",
-      `name` == "Grindavík" ~ "YellowGreen",
-      `name` == "Northern Light Inn" ~ "LightSkyBlue",
-      `name` == "Sky Lagoon" ~ "PaleTurquoise",
-      `name` == "The Sheep Farming Museum" ~ "PeachPuff",
-      `name` == "Dalahótel" ~ "YellowGreen",
-      .default = "Red"
+    number = case_when(
+      `name:en` == "Geysir" ~ "4",
+      `name:en` == "Gullfoss" ~ "5",
+      `name` == "Víðgelmir" ~ "8",
+      `name:en` == "Gil Guesthouse" ~ "9",
+      `alt_name` == "Fjallfoss" ~ "13",
+      `name` == "Tónlistarskóli Ísafjarðar" ~ "14",
+      # `name` == "Grindavík" ~ "19",
+      `name` == "Northern Light Inn" ~ "22,23",
+      # `name` == "Sky Lagoon" ~ "23",
+      `name` == "The Sheep Farming Museum" ~ "17,18",
+      `name` == "Dalahótel" ~ "19,20",
+      `name` == "Barnafoss" ~ "7",
+      .default = "null"
     )
+  ) |>
+  filter(
+    number != "null"
   )
 
-  # Dalahestar - landuse:farmyard 1147655533
-  # Dalahotel
   # Barnafoss/hraunfossar
+  # Sheep museum
+  # Witchcraft museum
 
+geom_sf_shadowtext <- function(
+  mapping = aes(),
+  data = NULL,
+  stat = "sf_coordinates",
+  position = "identity",
+  ...,
+  parse = FALSE,
+  nudge_x = 0,
+  nudge_y = 0,
+  check_overlap = FALSE,
+  na.rm = FALSE,
+  show.legend = NA,
+  inherit.aes = TRUE,
+  fun.geometry = NULL
+) {
+  if (!missing(nudge_x) || !missing(nudge_y)) {
+    if (!missing(position)) {
+      cli::cli_abort(c(
+        "Both {.arg position} and {.arg nudge_x}/{.arg nudge_y} are supplied.",
+        i = "Only use one approach to alter the position."
+      ))
+    }
+    position <- position_nudge(nudge_x, nudge_y)
+  }
+  layer_sf(
+    data = data,
+    mapping = mapping,
+    stat = stat,
+    geom = GeomShadowText,
+    position = position,
+    show.legend = show.legend,
+    inherit.aes = inherit.aes,
+    params = list2(
+      parse = parse,
+      check_overlap = check_overlap,
+      na.rm = na.rm,
+      fun.geometry = fun.geometry,
+      ...
+    )
+  )
+}
 
-
-
+size = 2
 
 map <- ggplot() +
   geom_sf(data = my_sf, fill = "grey20", color = "transparent") +
@@ -259,29 +332,70 @@ map <- ggplot() +
     colour = "#42494a"
   ) +
   # Locations - multipolygons
-  geom_sf(
-    data = locations_multipolygons$osm_multipolygons,
-    fill = colours_multipolygons$colour,
-    colour = colours_multipolygons$colour
-  ) +
+  # geom_sf(
+  #   data = locations_multipolygons$osm_multipolygons,
+  #   fill = colours_multipolygons$colour,
+  #   colour = colours_multipolygons$colour
+  # ) +
+  geom_sf_shadowtext(
+    data = numbers_multipolygons |> st_as_sf(),
+    aes(
+      label = number
+    ),
+    size = size
+  ) + 
   # Locations - polygons
-  geom_sf(
-    data = locations_polygons$osm_polygons,
-    fill = colours_polygons$colour,
-    colour = colours_polygons$colour
-  ) +
+  # geom_sf(
+  #   data = locations_polygons$osm_polygons,
+  #   fill = colours_polygons$colour,
+  #   colour = colours_polygons$colour
+  # ) +
+  geom_sf_shadowtext(
+    data = numbers_polygons |> st_as_sf(),
+    aes(
+      label = number
+    ),
+    size = size
+  ) + 
   # Locations - multilines
-  geom_sf(
-    data = locations_multilines$osm_multilines,
-    fill = colours_multilines$colour,
-    colour = colours_multilines$colour
-  ) +
+  # geom_sf(
+  #   data = locations_multilines$osm_multilines,
+  #   fill = colours_multilines$colour,
+  #   colour = colours_multilines$colour
+  # ) +
+  geom_sf_shadowtext(
+    data = numbers_multilines |> st_as_sf(),
+    aes(
+      label = number
+    ),
+    size = size
+  ) + 
+  # Locations - lines
+  # geom_sf(
+  #   data = locations_lines$osm_lines,
+  #   fill = colours_lines$colour,
+  #   colour = colours_lines$colour
+  # ) +
+  # geom_sf_text(
+  #   data = numbers_lines |> st_as_sf(),
+  #   aes(
+  #     label = number,
+  #     colour = "Red"
+  #   )
+  # ) + 
   # Locations - points
-  geom_sf(
-    data = locations_points$osm_points,
-    fill = colours_points$colour,
-    colour = colours_points$colour
-  ) +
+  # geom_sf(
+  #   data = locations_points$osm_points,
+  #   fill = colours_points$colour,
+  #   colour = colours_points$colour
+  # ) +
+  geom_sf_shadowtext(
+    data = numbers_points |> st_as_sf(),
+    aes(
+      label = number
+    ),
+    size = size
+  ) + 
   stat_sf_coordinates() + 
   coord_sf(ylim = ylimit, xlim = xlimit, expand = FALSE) +
   # finishing touches
