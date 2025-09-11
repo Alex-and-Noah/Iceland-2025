@@ -271,10 +271,6 @@ numbers_points <- locations_points$osm_points |>
     number != "null"
   )
 
-  # Barnafoss/hraunfossar
-  # Sheep museum
-  # Witchcraft museum
-
 geom_sf_shadowtext <- function(
   mapping = aes(),
   data = NULL,
